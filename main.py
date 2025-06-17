@@ -12,7 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:8081",   # Expo default port
-    "http://http://192.168.1.108:8081/",  # Your deployed frontend URL
+    "http://http://192.168.1.108:8081",  # Your deployed frontend URL
     "*",  # You can allow all origins for testing, but better to restrict in prod
 ]
 
