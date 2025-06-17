@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.python-version
+venv/
+.env/
+.env.local
+.env.prod
+
+# Virtual Environment (Windows/Mac/Linux)
+venv/
+env/
+ENV/
+.venv/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Build & Deployment
+dist/
+build/
+*.exe
+*.msi
+*.spec
+.coverage
+htmlcov/
+
+# Media & Output Files
+*.mp4
+*.avi
+*.mov
+output/
+temp/
+*.jpg
+*.png
+
+# Google Drive Credentials
+credentials.json
+*.json
+token.pickle
+
+# Railway & Deployment
+.railway/
+*.railway
+.env.railway
+
+# System Files
+.DS_Store
+Thumbs.db
